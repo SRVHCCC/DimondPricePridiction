@@ -20,7 +20,7 @@ from src.utils import save_object
 
 @dataclass
 class DataTransformationconfig:
-    preprocessor_ob_file_path=os.path.join('artifacts','preprocessor.pkl')
+    preprocessor_obj_file_path=os.path.join('artifacts','preprocessor.pkl')
 
 
 ##data ingestionconfig class
@@ -111,18 +111,14 @@ class DataTransformation:
             test_arr=np.c_[input_feature_test_arr,np.array(target_feature_test_df)]
 
             save_object(
-                file_path=self.data_transformation_config.preprocessing_obj_file_path,
-                obj=preprocessing_obj
-
-
-            )
+                file_path=self.data_transformation_config.preprocessor_obj_file_path,obj=preprocessing_obj)
 
             logging.info("Preprocessor pickle in created and saved")
 
             return(
                 train_arr,
                 test_arr,
-                self.data_transformation_config.preprocessing_obj_file_path
+                self.data_transformation_config.preprocessor_obj_file_path
             )
         except Exception as e:
             logging.info("Exception occured in the initiate_datatransformation")
