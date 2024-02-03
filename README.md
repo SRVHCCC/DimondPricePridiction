@@ -1,4 +1,4 @@
-<!-- ## machine learning project
+ ## machine learning project
 
 Sure! Here's a description you can use for your GitHub README file:
 
@@ -36,6 +36,6 @@ This project focuses on predicting the price of diamonds using various machine l
 ### Contributions:
 Contributions, bug reports, and feature requests are welcome! Feel free to fork this repository, make changes, and submit pull requests.
 
-### License:
+## License:
 This project is licensed under the [MIT License](LICENSE).
 
