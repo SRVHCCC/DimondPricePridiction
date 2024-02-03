@@ -33,9 +33,5 @@ This project focuses on predicting the price of diamonds using various machine l
 - `scr/`: Scripts for data preprocessing, model training, and evaluation.
 - `requirements.txt`: List of required Python packages for reproducibility.
 
-### Contributions:
-Contributions, bug reports, and feature requests are welcome! Feel free to fork this repository, make changes, and submit pull requests.
 
-## License:
-This project is licensed under the [MIT License](LICENSE).
 
